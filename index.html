@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominique Macalinao's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./img/dm.png">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="name">
+            <h1 class="mochi">Dominique<br>Macalinao</h1>
+        </div>
+        <div class="options">
+            <a href="#about-me" class="links btn">About</a>
+            <a href="#projects" class="links btn">Projects</a>
+            <a href="#contact" class="links btn">Contact</a>
+        </div>
+    </header>
+    <div class="sec-two">
+        <div class="border">
+            <span id="about-me" class="border-text about">About</span>
+        </div>
+        <div class="project-row">
+            <img class="self" src="./img/self.jpg">
+
+            <div class="slide-container">
+                <div class="slide two">
+                    <span class="dot" onclick="currentSlide(1)">Intro</span>
+                    <span class="dot" onclick="currentSlide(2)">Skills</span>
+                    <span class="dot" onclick="currentSlide(3)">Experience</span>
+                    <span class="dot" onclick="currentSlide(4)">Fun Facts</span>
+                </div>
+                <div class="mySlides fade one" style="display: block;">
+                    <h1>Hi there!</h1><br>
+                    <p>My name is Dominique and in my arsenal are my many years of customer service and
+                        administrative experience that I believe translate very well into programming. </p><br>
+                    <p>In February 2021, I decided to leave my full-time job as Project Manager and Customer Service
+                        Manager (yes, I held two roles!) for an e-commerce company to fully dive into the world of
+                        coding. I enrolled in Coding Dojo's <a
+                            href="https://www.codingdojo.com/coding-bootcamp" target="_blank" rel="noopener noreferrer">Fullstack Web Development Certificate</a>
+                        program and completely immersed myself into learning different languages for three months. I was
+                        pretty much living and breathing code, and it was at this time that I fell in love with coding.
+                        There is so much to learn- it's like a gift that keeps on giving!</p><br>
+                    <p>You might ask how I can use my customer service and administrative skills in this industry, and I
+                        am more than glad to share. If you would like to hear more about my journey, please do not
+                        hesitate to reach out to me via <a href="mailto:macalin3.dm@gmail.com">email</a>.</p>
+                </div>
+                <div class="mySlides fade one">
+                    <h1>Technical Skills</h1><br>
+                    <div class="skill-container">
+                        <div class="skill-stat html set">
+                            <p>HTML</p>
+                            <p>85%</p>
+                        </div>
+                    </div>
+                    <div class="skill-container">
+                        <div class="skill-stat css set">
+                            <p>CSS</p>
+                            <p>80%</p>
+                        </div>
+                    </div>
+                    <div class="skill-container">
+                        <div class="skill-stat react set">
+                            <p>React</p>
+                            <p>80%</p>
+                        </div>
+                    </div>
+                    <div class="skill-container">
+                        <div class="skill-stat python set">
+                            <p>Python</p>
+                            <p>75%</p>
+                        </div>
+                    </div>
+                    <div class="skill-container">
+                        <div class="skill-stat java set">
+                            <p>Java</p>
+                            <p>70%</p>
+                        </div>
+                    </div>
+                    <div class="skill-container">
+                        <div class="skill-stat ux set">
+                            <p>UX Design</p>
+                            <p>90%</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mySlides fade one">
+                    <h1>Work & Education History</h1><br>
+                    <div class="experience-container">
+                        <div class="work-container" style="margin-right: 1%;">
+                            <small class="bold block">Project Manager</small>
+                            <small class="bold block">Customer Service Manager</small>
+                            <small class="block">November 2018 - February 2021</small><br>
+                            <small class="bold block">Associate Academic Dean</small>
+                            <small class="block">March 2015 - August 2018</small><br>
+                            <small class="bold block">Communications Intern</small>
+                            <small class="block">June 2013 - November 2016</small>
+                        </div>
+                        <div class="work-container">
+                            <small class="bold block">Google UX Design Certificate</small>
+                            <small class="block">Coursera</small>
+                            <small class="block">November 2021</small><br>
+                            <small class="bold block">Fullstack Web Development Certificate</small>
+                            <small class="block">Coding Dojo</small>
+                            <small class="block">February 2021</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides fade one">
+                    <h1>Fun Facts!</h1><br>
+                    <ul>
+                        <li>I enjoy watching Japanese animation (anime) and reading Japanese comics (manga). Something
+                            I'm very proud of is that I learned to read, write, speak, and understand Japanese by
+                            repeatedly watching an anime called Ouran High School Host Club and reading Japanese comics
+                            without any English translations. I am now <a
+                                href="https://www.jlpt.jp/e/about/purpose.html" target="_blank" rel="noopener noreferrer">JLPT</a>-N3 certified and I hope to take
+                            the highest level (JLPT-N1) in the near future.</li><br>
+                        <li>I consider myself to be a very shy and soft-spoken person. To help me get out of my comfort
+                            zone, I frequently attend anime conventions and volunteer to present "<a
+                                href="https://www.anime-expo.org/activity/fan-panels/" target="_blank" rel="noopener noreferrer">fan panels</a>", where I can
+                            share my love of the Japanese culture with fellow convention attendees.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="sec-one">
+        <div class="border">
+            <span id="projects" class="border-text pj">Projects</span>
+        </div>
+        <div class="project-card">
+            <img src="./img/sandia.PNG" class="project-img">
+            <div class="project-outline">
+                <div class="project-info">
+                    <h2 style="margin: 5%;">Sandia Animal Hospital</h2>
+                    <p style="margin: 5%; text-transform: none;">A web app created using Django that contains a "Book
+                        Appointment" feature which lets clients book, modify, or cancel an
+                        appointment for their pets in advance.</p>
+                    <a href="https://github.com/macalin3/sandia-ah" target="_blank" rel="noopener noreferrer" class="project-btn-a s-left-margin">Github</a>
+                    <a href="http://18.219.235.175/" class="project-btn-a" target="_blank" rel="noopener noreferrer">Demo</a>
+                </div>
+                <div class="project-tech">
+                    <h2 style="margin: 0 5% 5% 5%;">Technologies</h2>
+                    <button href="" class="project-btn  s-left-margin">HTML</button>
+                    <button class="project-btn">CSS</button>
+                    <button class="project-btn">Django</button>
+                    <button class="project-btn  s-left-margin">API</button>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="./img/ecommerce.PNG" class="project-img">
+            <div class="project-outline">
+                <div class="project-info">
+                    <h2 style="margin: 5%;">Shop Nutriana</h2>
+                    <p style="margin: 5%; text-transform: none;">An e-commerce app that lets you shop for supplements in
+                        the catalog. Features include: Stripe API for payments, Mailchimp API for collecting emails, and
+                        more!</p>
+                    <!-- <a href="" class="project-btn-a s-left-margin">Github</a>
+                    <a href="" class="project-btn-a">Demo</a> -->
+                    <button class="coming-soon  s-left-margin">Coming soon!</button>
+                </div>
+                <div class="project-tech">
+                    <h2 style="margin: 0 5% 5% 5%;">Technologies</h2>
+                    <button class="project-btn  s-left-margin">HTML</button>
+                    <button class="project-btn">CSS</button>
+                    <button class="project-btn">Django</button>
+                    <button class="project-btn  s-left-margin">API</button>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <img id="nicmico" src="./img/nicmico.png" class="project-img">
+            <div class="project-outline">
+                <div class="project-info">
+                    <h2 style="margin: 5%;">Nicmico</h2>
+                    <p style="margin: 5%; text-transform: none;">A web app by an anime fan, for anime fans. This app
+                        showcases this season's current anime list, as well as blog posts from the website's moderators.
+                    </p>
+                    <!-- <a href="" class="project-btn-a s-left-margin">Github</a>
+                    <a href="" class="project-btn-a">Demo</a> -->
+                    <button class="coming-soon  s-left-margin">Coming soon!</button>
+                </div>
+                <div class="project-tech">
+                    <h2 style="margin: 0 5% 5% 5%;">Technologies</h2>
+                    <button class="project-btn  s-left-margin">HTML</button>
+                    <button class="project-btn">CSS</button>
+                    <button class="project-btn">React</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="border">
+            <span id="contact" class="border-text">Contact</span>
+        </div>
+        <div class="text-center five-mrg">
+            <a href="mailto:macalin3.dm@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                    fill="#000000" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path
+                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                </svg></a><br>
+            <small>Dominique Macalinao <br>© 2022</small>
+        </div>
+    </footer>
+</body>
+
+</html>
