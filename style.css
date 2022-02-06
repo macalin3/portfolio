@@ -396,7 +396,7 @@ button {
     }
 
     .name h1 {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .name h3 {
@@ -491,8 +491,19 @@ button {
         text-align: center;
         margin: auto;
         padding: 0;
-        font-size: 40px;
         width: 100%;
+    }
+
+    .name h1 {
+        font-size: 50px;
+    }
+
+    .name h3 {
+        font-size: 15px;
+    }
+
+    .name h5 {
+        font-size: 15px;
     }
 
     .links.btn {
