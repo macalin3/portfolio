@@ -2,12 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-
 }
 
 .mySlides {
     display: none;
-    /* height: 90%; */
 }
 
 .nav-bar {
@@ -20,7 +18,7 @@
     top: 0;
     width: 100%;
     padding: .5%;
-    background-color: #e8e8ae;
+    background-color: #000000;
     box-shadow: 0 0 54px 0 rgba(0, 0, 0, 0.2);
     
 }
@@ -37,26 +35,31 @@
 .nav-links a{
     text-decoration: none;
     margin: 0 30px;
-    color: black;
+    color: #b6fff4;
 }
 
 header {
     display: flex;
     justify-content: space-evenly;
     padding: 10%;
-    /* background-color: #8ec9bb; */
-    color: #000000;
-    background-color: #f5f5dc;
+    background-color: #000000;
     align-items: center;
 }
 
 .name {
-    font-size: 5vw;
+    font-size: 3vw;
+    color: #ffb6c1;
+    width: 50%;
 }
 
-.mochi {
-    font-family: "Cookie", sans-serif;
-    /* text-transform: uppercase; */
+.name h3 {
+    font-size: 25px;
+    color: #b6fff4;
+}
+
+.name h5 {
+    font-size: 15px;
+    color: #ffb6c1;
 }
 
 .options {
@@ -69,77 +72,83 @@ header {
 }
 
 .btn {
-    border: 2px solid #000000;
+    border: 2px solid #b6fff4;
     border-radius: 15px;
     text-decoration: none;
     text-transform: uppercase;
     padding: 20% 80%;
     text-align: center;
     margin-bottom: 5px;
-    color: #000000;
+    color: #b6fff4;
 }
 
 .btn:hover {
     font-weight: 900;
-    background-color: #000000;
-    color: #e4e4a1;
+    background-color: #ffb6c1;
+    color: #000000;
+    border: 2px solid #ffb6c1;
 }
+
 .sec-one, .sec-two {
     padding: 1% 10% 1% 10%;
-    color: black;
+    color: #ffb6c1;
 }
 
 .sec-two {
-    /* background-color: #f8ca9d; */
-    background-color: #fbfbf0;
+    background-color: #000000;
+}
+
+.sec-two a {
+    color:#b6fff4;
 }
 
 .sec-one {
-    /* background-color: #f8ca9d; */
-    background-color: #f5f5dc;
+    background-color: #000000;
 }
 
 #contact {
-    background-color: #fbfbf0;
+    background-color: #000000;
 }
 
 footer {
     padding: 1% 10% 1% 10%;;
-    background-color: #fbfbf0;
+    background-color: #000000;
 }
-
-
 
 .border {
     width: 100%;
     height: 28px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ffb6c1;
     text-align: center;
 }
 
 .border-footer {
     width: 100%;
     height: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ffb6c1;
     text-align: center;
+    
 }
 
 .border-text, .footer-text {
     padding: 0 15px;
-    background-color: white;
+    background-color: #000000;
     text-transform: uppercase;
+    color: #ffb6c1
 }
 
 .about {
-    background-color: #fbfbf0;
+    background-color: #000000;
 }
 
 .border-text {
     font-size: 40px;
+    color: #ffb6c1
 }
 
 .footer-text {
     font-size: 20px;
+    color: #ffb6c1
 }
 
 .project-row {
@@ -153,31 +162,22 @@ footer {
     height: 200px;
     padding: 2%;
     text-align: center;
-    color: black;
-    border: 1px solid black;
+    color: #000000;
+    border: 1px solid #ffffff;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    
 }
-
-.self {
-    margin: 5% 0 5% 3%;
-    width: 25%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
 
 .proj-one {
-    background-color: #f5f5f6;
+    background-color: #000000;
 }
 
 .proj-two {
-    background-color: #f5f5f6;
+    background-color: #000000;
 }
 
 .proj-three {
-    background-color: #f5f5f6;
+    background-color: #000000;
 }
-
 
 .text-center {
     text-align: center;
@@ -187,27 +187,22 @@ footer {
     margin: 3% 0;
 }
 
-/* SLIDESHOW */
 
-
-  /* The dots/bullets/indicators */
+/* About Me Slides */
 .dot {
     cursor: pointer;
-    /* height: 15px;
-    width: 15px; */
     margin: 3% 0;
     padding: 0 3%;
-    /* background-color: #bbb; */
-    /* border-radius: 50%; */
     display: inline-block;
     transition: background-color 0.6s ease;
     text-transform: uppercase;
     vertical-align: baseline;
+    color: #b6fff4;
 }
 
 .active, .dot:hover {
     font-weight: 900;
-    color: black;
+    color: #ffb6c1;
 }
 
 .slide-container {
@@ -228,23 +223,16 @@ footer {
 
 .skill-container {
     width: 100%;
-    background-color: #f5f5f6;
+    background-color: #c0c0c0;
     display: flex;
     margin-bottom: 1%;;
-}
-
-.skill-name {
-    padding: 1% 1%;
-    color: black;
-    background-color: #e4e4a1;
-    width: 10%;
 }
 
 .skill-stat {
     padding: 1%;
     color: black;
     text-align: right;
-    background-color: #e4e4a1;
+    background-color: #b6fff4;
 }
 
 .html {
@@ -300,13 +288,14 @@ footer {
     height: 500px;
     margin: 5% auto;
     display: flex;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
+    color: black;
 }
 
 .project-img {
     width: 60%;
-    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .project-outline {
@@ -325,11 +314,11 @@ footer {
 }
 
 .project-btn {
-    background-color: #e4e4a1;
+    background-color: #000000;
     padding: 1% 5%;
-    border: 1px solid #e4e4a1;
+    border: 1px solid #000000;
     border-radius: 10px;
-    color: black;
+    color: #b6fff4;
     margin: 0 0 1% 1%;
     text-decoration: none;
     text-align: center;
@@ -338,20 +327,23 @@ footer {
 }
 
 .project-btn-a {
-    background-color: #000000;
+    background-color: #b6fff4;
     padding: 1% 5%;
     border: 1px solid #000000;
-    border-radius: 10px;
-    color: #e4e4a1;
+    border-radius: 5px;
+    color: #000000;
     margin: 0 0 1% 1%;
     text-decoration: none;
     text-align: center;
     width: 25%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .project-btn-a:hover {
     font-weight: 900;
+    background-color: black;
+    color: #b6fff4;
 }
 
 .s-left-margin {
@@ -363,7 +355,7 @@ button {
 }
 
 .pj {
-    background-color: #f5f5dc;
+    background-color: #000000;
 }
 
 .s-top-margin {
@@ -386,7 +378,7 @@ button {
     font-weight: 900;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 412px) {
     .self {
         display: none;
     }
@@ -400,7 +392,19 @@ button {
         text-align: center;
         margin: auto;
         padding: 0;
-        font-size: 40px;
+        width: 100%;
+    }
+
+    .name h1 {
+        font-size: 50px;
+    }
+
+    .name h3 {
+        font-size: 20px;
+    }
+
+    .name h5 {
+        font-size: 15px;
     }
 
     .links.btn {
@@ -488,6 +492,7 @@ button {
         margin: auto;
         padding: 0;
         font-size: 40px;
+        width: 100%;
     }
 
     .links.btn {
@@ -538,9 +543,6 @@ button {
         margin-left: 0;
         border-radius: 10px;
     }
-
-
-
 
     footer svg {
         height: 20px;
